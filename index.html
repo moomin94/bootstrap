@@ -11,49 +11,258 @@
   <link rel="manifest" href="./favicon_io/site.webmanifest">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet prefetch" href="https://gist.githubusercontent.com/mfd/614e2e80a22b878bde63cb471cbe677e/raw/eef2aabfd0d588d43285431186a0cf70305ceb80/sanfrancisco-font.css">
+  <link rel="stylesheet" href="./css/style.css">
   <style>
 
   </style>
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
+  <header class="site-header sticky-top">
+    <nav class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="d-md-inline-block logo icon" href="#" aria-label="Product"></a>
+      <a class="d-none d-md-inline-block" href="#">스토어</a>
+      <a class="d-none d-md-inline-block" href="#">Mac</a>
+      <a class="d-none d-md-inline-block" href="#">iPad</a>
+      <a class="d-none d-md-inline-block" href="#">iPhone</a>
+      <a class="d-none d-md-inline-block" href="#">Watch</a>
+      <a class="d-none d-md-inline-block" href="#">AirPods</a>
+      <a class="d-none d-md-inline-block" href="#">TV 및 홈</a>
+      <a class="d-none d-md-inline-block" href="#">Apple 득점 제공</a>
+      <a class="d-none d-md-inline-block" href="#">액세서리</a>
+      <a class="d-none d-md-inline-block" href="#">고객지원</a>
+      <a class="d-none d-md-inline-block search icon" href="#"></a>
+      <a class="d-none d-md-inline-block cart icon" href="#"></a>
     </nav>
   </header>
+  <main>
+    <div class="section-1 position-relative d-md-flex flex-md-equal flex-row-reverse overflow-hidden p-3 p-md-5 mb-md-3 text-center bg-light">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 fw-bold">iPad</h1>
+        <p class="fw-normal">쓰다. 그리다. 빠져들다.</p>
+        <a class="btn" href="#">더 알아보기 ></a>
+        <a class="btn" href="#">주문하기 ></a>
+      </div>
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+      </div>
+    </div>
+    <div class="section-2 position-relative d-md-flex flex-md-equal overflow-hidden p-3 p-md-5 mb-md-3 text-center bg-light">
+      <div class="col-md-5 p-lg-5 mx-auto my-5 text-light">
+        <h1 class="display-4 fw-bold">iPad Pro</h1>
+        <p class="fw-normal">막강한 성능의 M2 탑재</p>
+        <a class="btn text-light" href="#">더 알아보기 ></a>
+        <a class="btn text-light" href="#">주문하기 ></a>
+      </div>
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+      </div>
+    </div>
+    
+    <div class="section-3 position-relative">
+      <video class="w-100" src="./img/section-3-video.mp4"></video>
+      <div class="text-wrap text-light text-center">
+        <h2>받으면 감동.</h2>
+        <p>아끼는 모든 이를 위한 완벽한<br>
+          연말연시 선물이 모두 여기에.</p>
+        <a class="btn text-light" href="#">쉽게 선물 쇼핑하기 ></a>
+      </div>
+    </div>
+
+    <div class="section-4 d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 justify-content-between">
+      <div class="w-100 me-md-3 pt-2 pt-md-3 text-center overflow-hidden">
+        <div class="my-2 p-3">
+          <h2 class="display-5">iPhone 14</h2>
+          <p class="lead">크게. 더 크게.</p>
+          <a class="btn" href="#">더 알아보기 ></a>
+          <a class="btn" href="#">주문하기 ></a>
+        </div>
+        <div class="mx-auto cont-box cont-img-1"></div>
+      </div>
+      <div class="w-100 me-md-3 text-light pt-2 pt-md-3 text-center overflow-hidden">
+        <div class="my-2 p-3">
+          <h2 class="display-5">iPhone 14 Pro</h2>
+          <p class="lead">프로 그 이상.</p>
+          <a class="btn text-light" href="#">더 알아보기 ></a>
+          <a class="btn text-light" href="#">주문하기 ></a>
+        </div>
+        <div class="mx-auto cont-box cont-img-2"></div>
+      </div>
+    </div>
+    
+    <div class="section-6 d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 justify-content-between">
+      <div class="w-100 me-md-3 pt-2 pt-md-3 text-center overflow-hidden">
+        <div class="my-2 p-3">
+          <h2 class="display-5">WATCH</h2>
+          <p class="lead">모험을 위한 시간.</p>
+          <a class="btn" href="#">더 알아보기 ></a>
+          <a class="btn" href="#">주문하기 ></a>
+        </div>
+        <div class="mx-auto cont-box cont-img-1"></div>
+      </div>
+      <div class="w-100 me-md-3 text-light pt-2 pt-md-3 text-center overflow-hidden">
+        <div class="my-2 p-3">
+          <h2 class="display-5">WATCH</h2>
+          <p class="lead">건강하게 앞서 나아가다.</p>
+          <a class="btn text-light" href="#">더 알아보기 ></a>
+          <a class="btn text-light" href="#">주문하기 ></a>
+        </div>
+        <div class="mx-auto cont-box cont-img-2"></div>
+      </div>
+    </div>
+
+    <div class="section-5 d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 justify-content-between">
+      <div class="w-100 me-md-3 pt-2 pt-md-3 text-center overflow-hidden">
+        <div class="my-2 p-3">
+          <h2 class="display-5">tv 4K</h2>
+          <p class="lead">보다 장대하게 경험하는<br>Apple의 모든 것.</p>
+          <a class="btn" href="#">더 알아보기 ></a>
+          <a class="btn" href="#">주문하기 ></a>
+        </div>
+        <div class="mx-auto cont-box cont-img-1"></div>
+      </div>
+      <div class="w-100 me-md-3 text-light pt-2 pt-md-3 text-center overflow-hidden">
+        <div class="my-2 p-3">
+          <h2 class="display-5">AirPods Pro</h2>
+          <p class="lead">듣는다는 것을 다시 생각하다.</p>
+          <a class="btn text-light" href="#">더 알아보기 ></a>
+          <a class="btn text-light" href="#">주문하기 ></a>
+        </div>
+        <div class="mx-auto cont-box cont-img-2"></div>
+      </div>
+    </div>
+  </main>
+
+  <div id="carouselExampleInterval" class="carousel slide mb-md-3" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active bg-light px-md-3">
+        <img src="./img/swiper-img-1.jpg" class="d-block mx-auto" alt="swiper img">
+      </div>
+      <div class="carousel-item bg-light px-md-3">
+        <img src="./img/swiper-img-2.jpg" class="d-block mx-auto" alt="swiper img">
+      </div>
+      <div class="carousel-item bg-light px-md-3">
+        <img src="./img/swiper-img-3.jpg" class="d-block mx-auto" alt="swiper img">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <footer class="container-fluid footer mt-4 py-3">
+    <div class="inner container">
+      <div class="row mb-4">
+        <div class="col-6 col-md">
+          <h5>쇼핑 및 알아보기</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">스토어</a></li>
+            <li><a class="link-secondary" href="#">Mac</a></li>
+            <li><a class="link-secondary" href="#">iPad</a></li>
+            <li><a class="link-secondary" href="#">iPhone</a></li>
+            <li><a class="link-secondary" href="#">Watch</a></li>
+            <li><a class="link-secondary" href="#">AirPods</a></li>
+            <li><a class="link-secondary" href="#">TV 및 홈</a></li>
+            <li><a class="link-secondary" href="#">AirTag</a></li>
+            <li><a class="link-secondary" href="#">액세서리</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>서비스</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Apple Music</a></li>
+            <li><a class="link-secondary" href="#">Apple TV+</a></li>
+            <li><a class="link-secondary" href="#">Apple Arcade</a></li>
+            <li><a class="link-secondary" href="#">iCloud</a></li>
+            <li><a class="link-secondary" href="#">Apple Books</a></li>
+            <li><a class="link-secondary" href="#">Apple Podcast</a></li>
+            <li><a class="link-secondary" href="#">App Store</a></li>
+          </ul>
+          <h5>계정</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Apple ID 관리</a></li>
+            <li><a class="link-secondary" href="#">Apple Store 계정</a></li>
+            <li><a class="link-secondary" href="#">iCloud.com</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Apple Store</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">매장찾기</a></li>
+            <li><a class="link-secondary" href="#">Genius Bar</a></li>
+            <li><a class="link-secondary" href="#">Today at Apple</a></li>
+            <li><a class="link-secondary" href="#">Apple 캠프</a></li>
+            <li><a class="link-secondary" href="#">Apple Store 앱</a></li>
+            <li><a class="link-secondary" href="#">리퍼 및 특가 제품</a></li>
+            <li><a class="link-secondary" href="#">금융 혜택</a></li>
+            <li><a class="link-secondary" href="#">Apple Trade In</a></li>
+            <li><a class="link-secondary" href="#">주문상태</a></li>
+            <li><a class="link-secondary" href="#">쇼핑 도움말</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>비즈니스</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Apple과 비즈니스</a></li>
+            <li><a class="link-secondary" href="#">비즈니스를 위한 제품 쇼핑하기</a></li>
+          </ul>
+          <h5>교육</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Apple과 교육</a></li>
+            <li><a class="link-secondary" href="#">초중고용 제품 쇼핑하기</a></li>
+            <li><a class="link-secondary" href="#">대학 생활을 위한 제품 쇼핑하기</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Apple의 가치관</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">손쉬운 사용</a></li>
+            <li><a class="link-secondary" href="#">환경</a></li>
+            <li><a class="link-secondary" href="#">개인정보 보호</a></li>
+            <li><a class="link-secondary" href="#">협력업체에 대한 책임</a></li>
+          </ul>
+          <h5>Apple 정보</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Newsroom</a></li>
+            <li><a class="link-secondary" href="#">Apple 리더십</a></li>
+            <li><a class="link-secondary" href="#">채용 안내</a></li>
+            <li><a class="link-secondary" href="#">윤리 및 규정 준수</a></li>
+            <li><a class="link-secondary" href="#">이벤트</a></li>
+            <li><a class="link-secondary" href="#">일자리 창출</a></li>
+            <li><a class="link-secondary" href="#">Apple 연락처</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom w-100">
+        <p class="tel border-bottom mb-2 pb-2">다양한 쇼핑 방법: <span class="blue">Apple Store를 방문</span>하거나, <span class="blue">리셀러</span>를 찾아보거나, 080-330-8877번으로 전화하세요.</p>
+        <div class="d-flex justify-content-between">
+          <div class="copyright">
+            <p>Copyright © 2022 Apple Inc. 모든 권리 보유.</p>
+          </div>
+          <ul class="d-flex f-menu">
+            <li class="border-end px-2">개인정보 처리방침</li>
+            <li class="border-end px-2">웹 사이트 이용 약관</li>
+            <li class="border-end px-2">판매 및 환불</li>
+            <li class="border-end px-2">법적 고지</li>
+            <li class="border-end px-2">사이트 맵</li>
+          </ul>
+          <span>대한민국</span>
+        </div>
+        <div class="footer-info">
+          <p>사업자등록번호 : 120-81-84429 | 통신판매업신고번호 : 제 2011-서울강남-00810호 | 대표이사 : PETER DENWOOD | 주소 : 서울 특별시 강남구 영동대로 517 | 대표전화 : 02-6712-6700 | 팩스 : 02-6928-0000</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
 
 
   <!-- JavaScript Bundle with Popper -->
