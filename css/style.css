@@ -149,11 +149,12 @@ main > div {
 
 .section-3 {
   height: 692px;
+  background-color: #010022;
 }
 
 .section-3 video {
   height: 692px;
-  object-fit: cover;
+  object-fit: 100%;
 }
 
 .section-3 .text-wrap {
