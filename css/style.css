@@ -40,12 +40,44 @@
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
 }
 
-body {
-  font-family: "San Francisco";
-}
+body {font-family: "San Francisco";}
 * {margin:0; padding:0; letter-spacing: -0.5px;}
 ul,ol,li {list-style: none;}
 a {text-decoration: none; color: #f5f5f7; transition: .3s;}
+
+.title {
+  font-size: 56px;
+  margin-bottom: 10px;
+}
+
+.title2 {
+  font-size: 42px;
+  letter-spacing: -0.5px;
+}
+
+.sub-title {
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: -1.5px;
+  margin-bottom: 10px;
+}
+
+.sub-title2 {
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  font-size: 19px;
+  font-weight: 600;
+  border: 0;
+}
+
+.btn2 {
+  font-size: 16px;
+}
 
 header {
   background-color: rgba(0,0,0,0.8);
@@ -64,6 +96,7 @@ nav a {
   font-family: "SF Pro KR","SF Pro Text","Yoon Gothic","Myriad Set Pro","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif;
   letter-spacing: 0em;
   opacity: 0.8;
+  font-weight: 100;
 }
 
 nav a:hover {
@@ -115,7 +148,6 @@ main > div {
 
 .section-3 {
   height: 692px;
-
 }
 
 .section-3 video {
@@ -125,9 +157,14 @@ main > div {
 
 .section-3 .text-wrap {
   position: absolute;
-  bottom : 5%;
+  bottom : 3%;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.section-3 h2 {
+  font-size: 48px;
+  letter-spacing: -3px;
 }
 
 .section-4 > div:nth-child(1),
@@ -228,6 +265,7 @@ footer .tel,
 }
 
 .blue:hover {
+  color: #0066cc;
   text-decoration: underline;
 }
 
@@ -244,5 +282,26 @@ footer .tel,
   .container, .container-sm {
     max-width: 100%;
     align-items: center;
+  }
+
+  main > div {
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+  
+  .section-1 {
+    height: 548px;
+    background-image: url('../img/section-img-1.jpg');
+    background-size: 400%;
+  }
+  
+  .section-2 {
+    height: 548px;
+    background-image: url('../img/section-img-2.jpg');
+  }
+  
+  .section-3 {
+    height: 548px;
   }
 }
