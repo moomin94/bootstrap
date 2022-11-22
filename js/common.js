@@ -2,6 +2,9 @@
 
 $(function(){
 
+  $('a').click(function(e){
+    e.preventDefault();
+  });
   $(window).on('scroll', function(e){
 		let scrollTop = $(this).scrollTop();
     if($('.section-3').offset().top/2 < scrollTop && $('.section-4').offset().top > scrollTop){
